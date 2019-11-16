@@ -1,0 +1,25 @@
+#magicPlace{
+  background-color:aliceblue;
+  width: 99%;
+  height: 99%;
+  border: 1px solid black;
+  animation: example 5s infinite;
+  animation-direction: alternate;
+  filter: blur(30px);
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.item{
+  border: 1px solid black;
+  float: left;
+
+}
+
+@keyframes example {
+  from {filter: blur(30px) contrast(200%) brightness(100%)}
+  to {filter: blur(50px) contrast(3000%) brightness(100%)}
+}
